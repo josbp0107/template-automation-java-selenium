@@ -1,0 +1,42 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+
+defaultTasks 'clean','test','aggregate'
+
+group = 'co.com.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+sourceCompatibility = 16
+targetCompatibility = 16
+
+ext {
+    seleniumVersion = '4.16.1'
+    cucumberVersion = '7.14.1'
+    testngVersion = '7.8.0'
+    serenityVersion = '4.0.28'
+}
+
+dependencies {
+
+    implementation "org.seleniumhq.selenium:selenium-java:${seleniumVersion}"
+    testImplementation "org.testng:testng:${testngVersion}"
+    implementation "io.cucumber:cucumber-java:${cucumberVersion}"
+    testImplementation "io.cucumber:cucumber-junit:${cucumberVersion}"
+    implementation "net.serenity-bdd:serenity-core:${serenityVersion}"
+    implementation "net.serenity-bdd:serenity-junit:${serenityVersion}"
+    implementation "net.serenity-bdd:serenity-screenplay:${serenityVersion}"
+    implementation "net.serenity-bdd:serenity-reports:${serenityVersion}"
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+gradle.startParameter.continueOnFailure = true
