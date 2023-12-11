@@ -80,6 +80,7 @@ local.properties
 .idea/**/dictionaries
 .idea/**/shelf
 .gradle
+*.iml
 
 # AWS User-specific
 .idea/**/aws.xml
