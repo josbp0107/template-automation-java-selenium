@@ -1,4 +1,4 @@
-# Template Automation Testing with Java 17 And Selenium
+# Template Automation Testing For Arreglatech
 
 This repository contains the essentials to start working with selenium, its different dependencies and archetype folders
 for handling the screenplay design pattern.
@@ -25,4 +25,3 @@ After downloading the driver, you must add it to the folder with the name **driv
 
 **Remember to update your browser to the latest version.**
 
-By [Jose Ballesteros Paternina](https://github.com/josbp0107) 🚀
