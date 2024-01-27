@@ -1,4 +1,4 @@
-# Template Automation Testing For Arreglatech
+# Template Automation Testing with Java and Selenium
 
 This repository contains the essentials to start working with selenium, its different dependencies and archetype folders
 for handling the screenplay design pattern.
