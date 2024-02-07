@@ -51,7 +51,7 @@ test {
 }
 
 serenity {
-    testRoot = "com.arreglatech.project.runners"
+    testRoot = "com.domain.project.runners"
     requirementsBaseDir = "src/test/resources/features"
     reports = ["single-page-html"]
 }

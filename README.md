@@ -1,6 +1,6 @@
 # Template Automation Testing with Java and Selenium
 
-This repository contains the essentials to start working with selenium, its different dependencies and archetype folders
+This repository contains the essentials to start working with Selenium, SerenityBDD its different dependencies and archetype folders
 for handling the screenplay design pattern.
 
 ## Framework and Technologies 🖥️
@@ -24,4 +24,6 @@ for handling the screenplay design pattern.
 After downloading the driver, you must add it to the folder with the name **drivers**
 
 **Remember to update your browser to the latest version.**
+
+By [Jose Ballesteros Paternina](https://github.com/josbp0107) 🚀
 
